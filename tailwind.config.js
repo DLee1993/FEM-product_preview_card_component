@@ -4,13 +4,20 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                "Hanken-Grotesk": ["Hanken Grotesk", "Sans-serif"],
+                "Fraunces": ['Fraunces', "serif"],
+                "Montserrat": ['Montserrat', "sans-serif"]
             },
             colors: {
-                lightRed: "hsl(0, 100%, 67%)",
-                orangeYellow: "hsl(39, 100%, 56%)",
-                greenTeal: "hsl(166, 100%, 37%)",
+                darkCyan: "hsl(158, 36%, 37%)",
+                cream: "hsl(30, 38%, 92%)",
+                darkBlue: "hsl(212, 21%, 14%)",
+                greyBlue: "hsl(228, 12%, 48%)",
+                white: "hsl(0, 0%, 100%)",
             },
+            backgroundImage: {
+                'desktop': "url('./images/image-product-desktop.jpg')",
+                'mobile': "url('./images/image-product-mobile.jpg')",
+              }
         },
     },
     plugins: [],
