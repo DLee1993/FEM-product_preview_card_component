@@ -1,6 +1,6 @@
 # Frontend Mentor - product preview card component
 
-This is a solution to the [Results summary component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Product preview component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa/hub). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -16,7 +16,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ## Overview
 
-The challenge is building out a results summary component and getting it as close to the design as possible. For this challenge I attempted to use Tailwindcss for the first time.
+The challenge is building out a Product preview component and getting it as close to the design as possible. For this challenge I attempted to use Tailwindcss for the first time.
 
 ### The challenge
 
