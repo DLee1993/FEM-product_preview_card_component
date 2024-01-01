@@ -1,25 +1,26 @@
 const App = () => {
     return (
-        <section
-            className="h-screen flex justify-center items-center bg-cream"
-            id="center_container"
-        >
+        <main className="h-screen flex justify-center items-center bg-cream" id="center_container">
+            <h1 className="text-4xl font-bold text-center sr-only">Product Preview</h1>
             <section
                 id="product_card"
                 className="flex justify-center items-center flex-col sm:flex-row h-[700px] w-[375px] sm:w-[90%] sm:max-w-[600px] sm:h-[500px]"
             >
+                <h2 className="text-4xl font-bold text-center sr-only">Product content card</h2>
                 <section
                     id="image_container"
                     className="bg-desktop bg-cover bg-no-repeat bg-center w-full h-1/2 sm:w-1/2 sm:h-full rounded-t-2xl sm:rounded-t-none sm:rounded-tl-2xl sm:rounded-bl-2xl"
-                ></section>
+                >
+                    <h2 className="text-4xl font-bold text-center sr-only">Product image</h2>
+                </section>
                 <section
                     id="product_info"
                     className="w-full h-2/3 sm:w-1/2 sm:h-full flex justify-evenly items-start flex-col px-6 bg-white rounded-b-2xl sm:rounded-b-none sm:rounded-tr-2xl sm:rounded-br-2xl"
                 >
                     <p className="text-greyBlue uppercase tracking-[.25em]">perfume</p>
-                    <h1 className="text-4xl font-Fraunces text-darkBlue">
+                    <h2 className="text-4xl font-Fraunces text-darkBlue">
                         Gabrielle Essence Eau De parfum
-                    </h1>
+                    </h2>
                     <p className="text-greyBlue font-medium max-w-[90%]">
                         A floral, solar and voluptuous interpretation composed by Olivier Polge,
                         Perfumer-Creator for the House of CHANEL.
@@ -48,7 +49,7 @@ const App = () => {
                     </button>
                 </section>
             </section>
-        </section>
+        </main>
     );
 };
 
